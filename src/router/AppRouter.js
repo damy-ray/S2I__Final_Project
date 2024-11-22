@@ -5,16 +5,16 @@ import {
   Navigate,
   useLocation,
 } from "react-router-dom";
-import HomePage from "../Pages/HomePage";
-import MethanePage from "../Pages/Views/Features/Metano";
-import CO2Page from "../Pages/Views/Features/CO2";
-import NO2Page from "../Pages/Views/Features/NO2";
-import GhiaccioPolarePage from "../Pages/Views/Features/GhiaccioPolare";
-import TemperaturePage from "../Pages/Views/Features/Temperature";
-import Navbar from "../Components/Navbar";
-import { AuthContext } from "../context/AuthContext";
+import HomePage from "Pages/HomePage";
+import MethanePage from "Pages/Views/Features/Metano";
+import CO2Page from "Pages/Views/Features/CO2";
+import NO2Page from "Pages/Views/Features/NO2";
+import GhiaccioPolarePage from "Pages/Views/Features/GhiaccioPolare";
+import TemperaturePage from "Pages/Views/Features/Temperature";
+import Navbar from "Components/Navbar";
+import { AuthContext } from "context/AuthContext";
 import { useContext } from "react";
-import Footer from "../Components/Footer";
+import Footer from "Components/Footer";
 import Login from "Pages/Login";
 import Register from "Pages/Register";
 //import PageNotFound from "Components/core/PageNotFound";
