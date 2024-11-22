@@ -1,0 +1,21 @@
+{
+    "BASE": "https://global-warming.org/api",
+    "MAIN": {
+        "ARCTIC": {
+            "URL": "/arctic-api",
+            "METHOD": "GET"
+        },
+        "CO2": {
+            "URL": "/co2-api",
+            "METHOD": "GET"
+        },
+        "METHANE": {
+            "URL": "/methane-api",
+            "METHOD": "GET"
+        },
+        "TEMPERATURE": {
+            "URL": "/temperature-api",
+            "METHOD": "GET"
+        }
+    }
+}
