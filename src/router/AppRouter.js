@@ -5,18 +5,18 @@ import {
   Navigate,
   useLocation,
 } from "react-router-dom";
-import HomePage from "../Views/HomePage";
-import MethanePage from "../Views/Features/Metano";
-import CO2Page from "../Views/Features/CO2";
-import NO2Page from "../Views/Features/NO2";
-import GhiaccioPolarePage from "../Views/Features/GhiaccioPolare";
-import TemperaturePage from "../Views/Features/Temperature";
+import HomePage from "../Pages/HomePage";
+import MethanePage from "../Pages/Views/Features/Metano";
+import CO2Page from "../Pages/Views/Features/CO2";
+import NO2Page from "../Pages/Views/Features/NO2";
+import GhiaccioPolarePage from "../Pages/Views/Features/GhiaccioPolare";
+import TemperaturePage from "../Pages/Views/Features/Temperature";
 import Navbar from "../Components/Navbar";
 import { AuthContext } from "../context/AuthContext";
 import { useContext } from "react";
 import Footer from "../Components/Footer";
-import Login from "Views/Login";
-import Register from "Views/Register";
+import Login from "Pages/Login";
+import Register from "Pages/Register";
 //import PageNotFound from "Components/core/PageNotFound";
 const AppRouter = () => {
   const { currentUser } = useContext(AuthContext);
